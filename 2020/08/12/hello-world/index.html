@@ -115,12 +115,6 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
       
-      <a class="forkMe" style="position:absolute;z-index:999;top:0;right:0.5em;" 
-        href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">
-        <img src="/img/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-      
-      
 <nav id="mobile-nav">
   	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
 	<div class="btnctn js-mobile-btnctn">
@@ -260,7 +254,7 @@
           <span class="tooltip-content">
             <span class="tooltip-text">
               <span class="tooltip-inner">
-                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
+                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢老板<i
                     class="icon icon-quo-right"></i></p>
                 <div class="reward-box">
                   
@@ -460,10 +454,10 @@
   var titleTime;
   document.addEventListener("visibilitychange", function () {
     if (document.hidden) {
-      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+      document.title = "See you later" + originTitle;
       clearTimeout(titleTime);
     } else {
-      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+      document.title = "See you again" + originTitle;
       titleTime = setTimeout(function () {
         document.title = originTitle;
       }, 2000);
